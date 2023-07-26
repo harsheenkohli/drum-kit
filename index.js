@@ -13,33 +13,34 @@ document.addEventListener("keydown", function(alphabet) {
 })
 
 // detecting keyboard press
+
 function makeSound(key) {
     switch (key) {
-        case "d" :
+        case "d" : case "D" :
             var audio = new Audio("./sounds/tom-1.mp3");
             audio.play();
         break;
-        case "r" :
+        case "r" : case "R" :
             var audio = new Audio("./sounds/tom-2.mp3");
             audio.play();
         break;
-        case "u" :
+        case "u" : case "U" :
             var audio = new Audio("./sounds/kick-bass.mp3");
             audio.play();
         break;
-        case "m" :
+        case "m" : case "M" :
             var audio = new Audio("./sounds/crash.mp3");
             audio.play();
         break;
-        case "s" :
+        case "s" : case "S" :
             var audio = new Audio("./sounds/snare.mp3");
             audio.play();
         break;
-        case "e" :
+        case "e" : case "E" :
             var audio = new Audio("./sounds/tom-3.mp3");
             audio.play();
         break;
-        case "t" :
+        case "t" : case "T" :
             var audio = new Audio("./sounds/tom-4.mp3");
             audio.play();
         break;
