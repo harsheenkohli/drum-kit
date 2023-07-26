@@ -9,7 +9,7 @@ for (var i = 0; i < document.querySelectorAll(".set > .drum").length; i++)
 
 document.addEventListener("keydown", function(alphabet) {
     makeSound(alphabet.key);
-    buttonAnimation(alphabet.key);
+    buttonAnimation(alphabet.key.toLowerCase());
 })
 
 // detecting keyboard press
